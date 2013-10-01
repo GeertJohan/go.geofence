@@ -46,6 +46,7 @@ func calculateWindingNumber(p Polygon, pt Point) int {
 	// the winding number counter
 	wn := 0
 
+	// amount of edges to check
 	n := len(p) - 2
 
 	// loop through all edges of the polygon

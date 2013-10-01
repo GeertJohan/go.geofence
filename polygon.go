@@ -13,5 +13,3 @@ func (p Polygon) copy() Polygon {
 	// return new vertex
 	return newPolygon
 }
-
-//++ TODO: write test for copy
